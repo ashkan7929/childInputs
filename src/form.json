@@ -1,0 +1,189 @@
+[
+    {
+        "component": "page",
+        "label": "",
+        "_uid": "0c946643-5a83-4545-baea-055b27b51e8a",
+        "fields": [
+            {
+                "component": "drop",
+                "label": "first drop",
+                "type": "email",
+                "items": [
+                    {
+                        "key": 1,
+                        "value": "Child Nadarad"
+                    },
+                    {
+                        "key": 2,
+                        "value": "chand input darad"
+                    },
+                    {
+                        "key": 3,
+                        "value": "yek drop darad"
+                    }
+                ],
+                "_uid": "6e333ff3638-80a7-4427-b07b-4c1be1c6b186"
+            },
+            {
+                "component": "text",
+                "label": "relation to first drop",
+                "type": "email",
+                "items": [
+                    {
+                        "key": 1,
+                        "value": "No"
+                    },
+                    {
+                        "key": 2,
+                        "value": "0"
+                    },
+                    {
+                        "key": 3,
+                        "value": "Yes"
+                    }
+                ],
+                "conditional": [
+                    {
+                        "value": "2",
+                        "field": "6e333ff3638-80a7-4427-b07b-4c1be1c6b186"
+                    }
+                ],
+                "_uid": "6e333ff3638-80a7-4427-b07b-4c1be1c6b1286"
+            },
+            {
+                "component": "drop",
+                "label": "meghdar bi tasir",
+                "type": "email",
+                "items": [
+                    {
+                        "key": 1,
+                        "value": "No"
+                    },
+                    {
+                        "key": 2,
+                        "value": "0"
+                    },
+                    {
+                        "key": 3,
+                        "value": "Yes"
+                    }
+                ],
+                "conditional": [
+                    {
+                        "value": "2",
+                        "field": "6e333ff3638-80a7-4427-b07b-4c1be1c6b186"
+                    }
+                ],
+                "_uid": "6e333ff3638-80a7-4427-b07b-4c1be1c6b12863"
+            },
+            {
+                "component": "drop",
+                "label": "second drop (relation to first drop)",
+                "type": "email",
+                "items": [
+                    {
+                        "key": 1,
+                        "value": "child nadarad"
+                    },
+                    {
+                        "key": 2,
+                        "value": "yek child darad"
+                    },
+                    {
+                        "key": 3,
+                        "value": "agar 'meghdar bi tasir' roi yes bashad meghdar darad"
+                    }
+                ],
+                "conditional": [
+                    {
+                        "value": "2",
+                        "field": "6e333ff3638-80a7-4427-b07b-4c1be1c6b186"
+                    }
+                ],
+                "_uid": "6e333ff3638-80a7-4427-b07b-4c1be1c6b12862"
+            },
+            {
+                "component": "drop",
+                "label": "agar 'meghdar bi tasir' roi *yes* bashad va 'second' roi *sevomin gozine* bashad neshan dade mishavad",
+                "type": "email",
+                "items": [
+                    {
+                        "key": 1,
+                        "value": "0"
+                    },
+                    {
+                        "key": 2,
+                        "value": "1"
+                    },
+                    {
+                        "key": 3,
+                        "value": "2"
+                    }
+                ],
+                "conditional": [
+                    {
+                        "value": "3",
+                        "field": "6e333ff3638-80a7-4427-b07b-4c1be1c6b12863"
+                    },
+                    {
+                        "value": "3",
+                        "field": "6e333ff3638-80a7-4427-b07b-4c1be1c6b12862"
+                    }
+                ],
+                "_uid": "6e333ff3638-80a7-4427-b07b-4c1be1c6b1286233"
+            },
+            {
+                "component": "drop",
+                "label": "4 drop (222222relation to second drop)",
+                "type": "email",
+                "items": [
+                    {
+                        "key": 1,
+                        "value": "No"
+                    },
+                    {
+                        "key": 2,
+                        "value": "0"
+                    },
+                    {
+                        "key": 3,
+                        "value": "Yes"
+                    }
+                ],
+                "conditional": [
+                    {
+                        "value": "2",
+                        "field": "6e333ff3638-80a7-4427-b07b-4c1be1c6b12862"
+                    }
+                ],
+                "_uid": "6e333ff3638-80a7-4427-b07b-4c1be1c6b128645"
+            },
+            {
+                "component": "drop",
+                "label": "relation to first drop",
+                "type": "email",
+                "items": [
+                    {
+                        "key": 1,
+                        "value": "No"
+                    },
+                    {
+                        "key": 2,
+                        "value": "0"
+                    },
+                    {
+                        "key": 3,
+                        "value": "Yes"
+                    }
+                ],
+                "conditional": [
+                    {
+                        "value": "3",
+                        "field": "6e333ff3638-80a7-4427-b07b-4c1be1c6b186"
+                    }
+                ],
+                "_uid": "6e333ff3638-80a7-4427-b07b-4c1be1c6b12864"
+            }
+        ]
+    }
+]
